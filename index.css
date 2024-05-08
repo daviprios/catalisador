@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+
+  font-family: sans-serif;
+  background-color: var(--very-background);
+}
+
+:root {
+  --orange: #FFAB00;
+  --orange-red: #F88017;
+  --gold: #C89B3C;
+  --yellow: #FFD700;
+  --green: #1F995C;
+  --slate: #0D2F35;
+  --white: #FFFFFF;
+  --gray: #626365;
+
+  --text: #D2D3D3;
+  --darker-text: #C8C2CD;
+  --contrast: #323130;
+  --background: #202124;
+  --very-background: #515358;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+  min-height: calc(100vh - 2rem);
+  width: 400px;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  color: var(--text);
+  background-color: var(--background);
+
+  border-radius: 1rem;
+}
+
+.page {
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+}
+
+.figure {
+  margin-right: 1rem;
+}
+
+.image {
+  border: 1px solid var(--gold);
+
+}
+
+.title {
+  color: var(--orange);
+  margin-bottom: 0.5rem;
+}
+
+.textContainer {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+.passive {
+  color: var(--gold);
+}
+
+.emphasis {
+  color: var(--white)
+}
+
+.emphasisAD {
+  color: var(--orange-red)
+}
+
+.emphasisHealth {
+  color: var(--green)
+}
